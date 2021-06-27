@@ -46,12 +46,12 @@ NodeJS memungkinkan JavaScript untuk dapat dieksekusi di luar web browser sehing
 
 ## JavaScript vs Java
 
-Pemula programmer sering salah tentang JavaScript dan Java. Ada yang mengira bahwa Java dan JavaScript adalah bahasa pemrograman yang sama, padahal itu berbeda. Ternyata **kata Java dimasukkan pada JavaScript hanyalah untuk strategi pemasaran** agar mendapatkan penerimaan. Java adalah bahasa pemrograman lain, tidak ada hubungannya dengan JavaScript.
+Pemula programmer sering salah tentang JavaScript dan Java. Ada yang mengira bahwa Java dan JavaScript adalah bahasa pemrograman yang sama, padahal itu berbeda. Ternyata **kata Java dimasukkan pada JavaScript hanyalah untuk strategi pemasaran** agar mendapatkan penerimaan. Java adalah bahasa pemrograman lain, tidak ada hubungannya dengan JavaScript. 
 
-Walaupun namanya ada kata “Java” nya, tapi dua bahasa pemrograman ini benar-benar berbeda, tidak ada hubungannya sama sekali.
+Java adalah bahasa pemrograman yang lebih dulu populer dan memiliki reputasi yang sangat bagus pada waktu itu. Walaupun namanya ada kata “Java” nya, tapi dua bahasa pemrograman ini benar-benar berbeda, tidak ada hubungannya sama sekali.
 
 {% hint style="info" %}
-JavaScript sekarang sudah mengalahkan Java Applet dan Flash sebagai bahasa pemrograman untuk membuat halaman web menjadi lebih interaktif, hal ini dikarenakan kemudahan bahasa nya dan juga secara default sekarang semua browser sudah bisa menjalankan JavaScript tanpa harus menginstall aplikasi tambahan seperti Java Applet dan Adobe Flash Player.
+**JavaScript sekarang sudah mengalahkan Java Applet dan Flash** sebagai bahasa pemrograman untuk membuat halaman web menjadi lebih interaktif, hal ini dikarenakan kemudahan bahasa nya dan juga secara default **sekarang semua browser sudah bisa menjalankan JavaScript tanpa harus menginstall aplikasi tambahan seperti Java Applet dan Adobe Flash Player**.
 {% endhint %}
 
 ## Kelebihan JavaScript
@@ -60,4 +60,10 @@ JavaScript sekarang sudah mengalahkan Java Applet dan Flash sebagai bahasa pemro
 * **Terbuka**: JavaScript tidak terkait oleh  _hardware_ maupun _software_ tertentu bahkan sistem operasi seperti windows maupun unix. Karena bersifat terbuka, jadi JavaScript bisa dibuat maupun di baca di semua jenis komputer.
 * **Ukuran File Kecil**: Script dari JavaScript memiliki ukuran yang kecil sehinggan web yang memiliki JavaScript ditampilkan di browser maka akses tampilannya akan lebih cepat.
 * **Cepat**: Karena diletakkan di HTML,  dan langsung dicoba di browser.
+
+{% hint style="info" %}
+Berangkat dari modal awal JavaScript yang mudah dan cepat dipelajari. **Sekarang JavaScript adalah salah satu bahasa pemrograman yang paling populer dan paling diminati** untuk awal mula terjun ke dunia pemrograman.
+{% endhint %}
+
+
 
