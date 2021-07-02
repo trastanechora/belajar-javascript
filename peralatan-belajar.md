@@ -35,25 +35,67 @@ Text editor ini boleh apa saja yang penting nyaman, **dianjurkan untuk memakai**
 
 ## Menjalankan Script
 
-Pada pembelajaran JavaScript ini kita akan memakai tag `<script>` yang ada pada file HTML. Sebagai contoh:
+Pada pembelajaran JavaScript ini kita akan memakai tag `<script>` yang ada pada file HTML.  Ingat, yang penting dari contoh-contoh yang akan kita bahas hanyalah yang ada di dalam tag `<script></script>` saja ya! Sebagai contoh:
 
-![Contoh sederhana file HTML dengan JavaScript di dalamnya](.gitbook/assets/html1.png)
+{% tabs %}
+{% tab title="coba.html" %}
+```markup
+<html>
+  <body>
+    <script>
+      console.log('Halo Dunia!');
+    </script>
+  </body>
+</html>
+```
+{% endtab %}
+{% endtabs %}
+
+> ^ Contoh sederhana file HTML dengan JavaScript di dalamnya
 
 Kita tinggal simpan kode di atas dengan nama misalkan **contoh.html** kemudian kita buka file tersebut dengan _web browser_ kita.
 
 ## Melihat Hasil / Output
 
-Pada pembelajaran JavaScript ini kita akan menggunakan **console** pada web browser untuk melihat hasil atau output dari kode yang kita tulis. Untuk membuka panel console ini, klik kanan pada halaman di Chrome atau tekan F12 lalu akan muncul sebuah panel di sebelah kanan, kemudian pindahkan _inspect_ pada tab console.  Seperti pada **contoh.html** di atas, kita akan mendapatkan output seperti berikut:
+**Pada pembelajaran JavaScript ini kita akan menggunakan console pada web browser untuk melihat hasil atau output dari kode yang kita tulis.** Untuk membuka panel console ini, klik kanan pada halaman di Chrome atau tekan F12 lalu akan muncul sebuah panel di sebelah kanan, kemudian pindahkan _inspect_ pada tab console.  Seperti pada **contoh.html** di atas, kita akan mendapatkan output seperti berikut:
 
-![Contoh output dari contoh.html](.gitbook/assets/screen-shot-2021-06-27-at-19.59.50.png)
+![Contoh output dari coba.html ketika dijalankan](.gitbook/assets/screen-shot-2021-07-03-at-03.18.24.png)
 
 Ada beberapa tipe varian output menggunakan console, yang digunakan berdasarkan tujuan atau pembe, 3 yang paling sering digunakan yaitu: log, warn dan error.
 
-![Contoh output console.log\(\), console.warn\(\) dan console.error\(\) secara berurutan](.gitbook/assets/screen-shot-2021-06-27-at-20.04.40.png)
+{% tabs %}
+{% tab title="coba.html" %}
+```markup
+<html>
+  <body>
+    <script>
+      console.log('Halo Dunia!');
+      console.warn('Halo Dunia!');
+      console.error('Halo Dunia!');
+    </script>
+  </body>
+</html>
+```
+{% endtab %}
+{% endtabs %}
+
+![Contoh output console.log\(\), console.warn\(\) dan console.error\(\) secara berurutan](.gitbook/assets/screen-shot-2021-07-03-at-03.20.08.png)
 
 Selain itu kita juga akan menggunakan **prompt\(\)** untuk melakukan input. Contoh untuk kasus mengambil input nama:
 
-![Contoh untuk melakukan prompt input](.gitbook/assets/html2.png)
+{% tabs %}
+{% tab title="coba.html" %}
+```markup
+<html>
+  <body>
+    <script>
+      prompt('Tuliskan namamu:');
+    </script>
+  </body>
+</html>
+```
+{% endtab %}
+{% endtabs %}
 
 ![Output dari contoh kode promt di atas](.gitbook/assets/screen-shot-2021-06-27-at-20.07.53.png)
 
