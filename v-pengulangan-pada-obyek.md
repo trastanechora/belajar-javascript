@@ -1,2 +1,2 @@
-# V - Pengulangan pada Obyek
+# VI - Pengulangan pada Obyek
 
