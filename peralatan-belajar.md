@@ -10,7 +10,7 @@ description: >-
 
 ### 1. Web Browser / Peramban Web
 
-Kita akan menggunakan web browser untuk melakukan pembelajaran JavaScript ini, sangat dianjurkan untuk memakai web browser yang memiliki fitur inspect page. Beberapa list yang direkomendasikan adalah:
+Kita akan menggunakan _web browser_ untuk melakukan pembelajaran JavaScript ini, sangat dianjurkan untuk memakai _web browser_ yang memiliki fitur _inspect page_. Beberapa list yang direkomendasikan adalah:
 
 * Google Chrome: [https://www.google.com/chrome/](https://www.google.com/chrome/)
 * Mozilla Firefox: [https://www.mozilla.org/en-US/firefox/](https://www.mozilla.org/en-US/firefox/)
