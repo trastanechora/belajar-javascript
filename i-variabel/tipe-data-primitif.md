@@ -10,6 +10,29 @@ Terdapat 3 tipe data primitif yang sering dipakai, yaitu:
 * Number
 * Boolean
 
+Sebuah variabel dapat dicek tipe data dari value yang disimpannya dengan `typeof`, sebagai contoh:
+
+{% tabs %}
+{% tab title="coba.html" %}
+```markup
+<html>
+  <body>
+    <script>
+      const hewan = "kucing";
+      const jumlahHewan = 9;
+      const apakahHewan = true;
+      console.log(typeof hewan);
+      console.log(typeof jumlahHewan);
+      console.log(typeof apakahHewan);
+    </script>
+  </body>
+</html>
+```
+{% endtab %}
+{% endtabs %}
+
+![](../.gitbook/assets/screen-shot-2021-07-06-at-23.52.50.png)
+
 ## String
 
 Tipe data string atau text adalah tipe data yang berisikan kumpulan karakter. Di JavaScript, untuk membuat data dengan tipe string, kita perlu menggunakan **`“`** \(petik dua\) atau **`‘`** \(petik satu\) sebelum dan setelah isi text nya. Contoh:
@@ -20,8 +43,8 @@ Tipe data string atau text adalah tipe data yang berisikan kumpulan karakter. Di
 <html>
   <body>
     <script>
-      const kosong = '';
-      const hewan = 'kucing';
+      const kosong = "";
+      const hewan = "kucing";
     </script>
   </body>
 </html>
@@ -41,8 +64,8 @@ Jika 2 variabel bertipe data string ditambahkan, maka akan terjadi penggabungan,
 <html>
   <body>
     <script>
-      const hewan = 'kucing';
-      const warnaBulu = 'oranye';
+      const hewan = "kucing";
+      const warnaBulu = "oranye";
       const hewanDenganWarnaBulu = hewan + warnaBulu;
       console.log(hewanDenganWarnaBulu);
     </script>
@@ -64,7 +87,7 @@ Pada variabel bertipe data string kita dapat mengetahui panjang atau jumlah kara
 <html>
   <body>
     <script>
-      const hewan = 'kucing';
+      const hewan = "kucing";
       const panjangKarakterHewan = hewan.length;
       console.log(hewan);
       console.warn(panjangKarakterHewan);
@@ -99,6 +122,43 @@ Sebagai contoh:
 {% endtab %}
 {% endtabs %}
 
+### String ke Number
+
+Kita dapat dengan mudah mengubah variabel dengan tipe data **string** ke dalam tipe data **number** dengan metode **Number\(\).** Metode ini akan mengubah string dalam bilangan koma ataupun bulat menjadi number, namun jika terdapat karakter selain angka akan mendapatkan hasil NaN \(Not a Number\) yang artinya adalah Bukan sebuah Angka. Sebagai contoh:
+
+{% tabs %}
+{% tab title="coba.html" %}
+```markup
+<html>
+  <body>
+    <script>
+      // Contoh angka
+      const piString = "3.14";
+      console.log(typeof piString);
+
+      const piNumber = Number(piString);
+      console.log(piNumber);
+      console.log(typeof piNumber);
+
+      console.warn("===============");
+
+      // Contoh bukan angka
+      const textString = "coba";
+      console.log(typeof textString);
+
+      const numberString = Number(textString);
+      console.log(numberString);
+      console.log(typeof numberString);
+    </script>
+  </body>
+</html>
+
+```
+{% endtab %}
+{% endtabs %}
+
+![](../.gitbook/assets/screen-shot-2021-07-07-at-08.55.04.png)
+
 ## Boolean
 
 Tipe data boolean adalah tipe data yang berisikan data kebenaran, artinya hanya ada dua data, benar dan salah \(_**true**_ dan _**false**_\).
@@ -122,8 +182,6 @@ Sebagai contoh:
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 
 
